@@ -1,0 +1,137 @@
+<!DOCTYPE html><!--22161102 이아연-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    * {
+       padding: 0;
+       margin: 0;
+       box-sizing:border-box;
+     }
+    body {
+       width: 100%;
+       -ms-overflow-style: none;
+       font-family: 'Noto Sans CJK KR Regular';
+       font-size: 14px;
+       color: white;
+     }
+     ::-webkit-scrollbar {
+       display: none;
+     }
+     .box{
+       -ms-overflow-style: none;
+     }
+     .box::-webkit-scrollbar{
+       display:none;
+     }
+     li {
+       list-style-type: none;
+     }
+     header {
+       width: 100%;
+       height: 90px;
+       margin:0 auto;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       position: fixed;
+     }
+     #logo {
+       margin-left: 70px;
+       float: left;
+     }
+     #menus {
+       float: right;
+     }
+     #menu {
+       margin-right: 70px;
+       text-align: right;
+       float: right;
+       font-size: 12px;
+     }
+     #menu li{
+       font-family: 'Noto Sans CJK KR Blod';
+       display: inline-block;
+       margin:0 10px;
+     }
+     #menu li a{
+       text-decoration: none;
+       color: white;
+     }
+     #menu li a:hover{
+       color: #E9791C;
+     }
+     #main_img {
+       width: 100%;
+       background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(e_bg.jpg);
+       background-repeat: no-repeat;
+       background-position:center;
+       background-size: cover;
+       background-attachment: fixed;
+     }
+     p{
+     font-size: 18px;
+     color: white;
+     line-height:160%;
+     font-family: '마루 부리OTF Beta';
+     padding-bottom: 200px;
+   }
+   .style {
+     text-align: center;
+     font-family: '마루 부리OTF Beta';
+     color: white;
+   }
+   h2 {
+     border-bottom: solid 1px white;
+     margin: 100px 580px 0px 580px;
+     padding-bottom: 10px;
+   }
+   img{
+     padding-bottom:30px;
+   }
+     .padding {
+       padding-top: 150px;
+     }
+     @media only screen and (max-width:620px) {
+       header, #logo, #menus, #menu {
+         width:100%;}
+       }
+    </style>
+  </head>
+  <body>
+    <section id="main_img">
+    <header>
+      <div id="logo">
+        <a href="index.html"><img src="logo1.png" width="100px"></a>
+      </div>
+        <nav id="menus">
+          <ul id="menu">
+            <li><a href="synopsis.html">SYNOPSIS</a></li>
+            <li><a href="character.html">CHARACTER</a></li>
+            <li><a href="gallery.html">GALLERY</a></li>
+            <li><a href="trailer.html">TRAILER</a></li>
+          </ul>
+        </nav>
+    </header>
+        <center class="padding">
+            <img src="synop.jpg" width="600">
+            <br>
+            <audio src="theme.mp3" autoplay loop controls>
+            </audio>
+            <h2 class="style">사랑은 그렇게 다시 기억된다...</h2>
+            <p>
+               <br>
+               조엘은 아픈 기억만을 지워준다는 라쿠나사를 찾아가<br>
+               헤어진 연인 클레멘타인의 기억을 지우기로 결심한다.<br>
+               <br>
+               기억이 사라져 갈수록 조엘은 사랑이 시작되던 순간,<br>
+               행복한 기억들, 가슴속에 각인된 추억들을<br>
+               지우기 싫어지기만 하는데...<br>
+               <br>
+               당신을 지우면 이 아픔도 사라질까요?<br>
+               사랑은 그렇게 다시 기억된다.
+             </p>
+      </center>
+    </section>
+ </body>
+</html>
