@@ -1,0 +1,120 @@
+<!DOCTYPE html><!--22161102 이아연-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    * {
+       padding: 0;
+       margin: 0;
+       box-sizing:border-box;
+     }
+    body {
+       width: 100%;
+       height: 100vh;
+       font-family: 'Noto Sans CJK KR Regular';
+       font-size: 14px;
+       color: white;
+     }
+     li {
+       list-style-type: none;
+     }
+     header {
+       width: 100%;
+       height: 90px;
+       margin:0 auto;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       position: fixed;
+     }
+     #logo {
+       margin-left: 70px;
+       float: left;
+     }
+     #menus {
+       float: right;
+     }
+     #menu {
+       margin-right: 70px;
+       text-align: right;
+       float: right;
+       font-size: 12px;
+     }
+     #menu li{
+       font-family: 'Noto Sans CJK KR Blod';
+       display: inline-block;
+       margin:0 10px;
+     }
+     #menu li a{
+       text-decoration: none;
+       color: white;
+     }
+     #menu li a:hover{
+       color: #E9791C;
+     }
+     #main_img {
+       width: 100%;
+       height: 100vh;
+       background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(e_bg.jpg);
+       background-repeat: no-repeat;
+       background-position:center;
+       background-size: cover;
+       background-attachment: fixed;
+     }
+     p{
+     font-size: 18px;
+     color: white;
+     line-height:160%;
+     font-family: '마루 부리OTF Beta';
+   }
+   .style {
+     text-align: center;
+     font-family: '마루 부리OTF Beta';
+     color: white;
+   }
+   h2 {
+     border-bottom: solid 1px white;
+     margin: 30px 600px 20px 600px;
+     text-align: center;
+     padding-bottom: 10px;
+   }
+   #img{
+     padding-bottom:10px;
+   }
+        .padding {
+          padding-top: 150px;
+        }
+        @media only screen and (max-width:620px) {
+          header, #logo, #menus, #menu {
+            width:100%;}
+          }
+    </style>
+  </head>
+  <body>
+    <section id="main_img">
+    <header>
+      <div id="logo">
+        <a href="index.html"><img src="logo1.png" width="100px"></a>
+      </div>
+        <nav id="menus">
+          <ul id="menu">
+            <li><a href="synopsis.html">SYNOPSIS</a></li>
+            <li><a href="character.html">CHARACTER</a></li>
+            <li><a href="gallery.html">GALLERY</a></li>
+            <li><a href="trailer.html">TRAILER</a></li>
+          </ul>
+        </nav>
+    </header>
+        <center class="padding">
+          <div id="img">
+            <img src="22.png" width="300">
+          </div>
+            <h2 class="style">JOEL BARISH
+            </h2>
+            <p>
+              JIM CARREY
+            </p>
+      </center>
+    </section>
+ </body>
+</html>
