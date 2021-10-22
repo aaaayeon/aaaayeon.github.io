@@ -56,7 +56,7 @@
       #main_img {
         width: 100%;
         height: 100vh;
-        background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(e_bg.jpg);
+        background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(e_bg.jpg);
         background-repeat: no-repeat;
         background-position:center;
         background-size: cover;
@@ -67,28 +67,35 @@
         left: 50%;
         top: 50%;
         transform: translate(-50%, -50%);
-        color:white;
+        color:#E9791C;
         text-align: center;
       }
-      .hero p{
+      .p{
         font-family: 'PP Cirka Semibold';
         line-height:150%;
         font-size: 27px;
         margin-bottom: 30px;
       }
+      /*.bold{
+        font-family: 'Noto Sans CJK KR Blod';
+        line-height:150%;
+        font-size: 15px;
+        margin-bottom: 30px;
+      }*/
       .hero button{
         background: none;
-        border:2px solid darkseagreen;
+        border:2px solid #E9791C;;
         padding: 12px 17px;
         border-radius: 18px;
         outline: none;
         curor: pointer;
         transition: all .4s;
         text-decoration: none;
-        color: white;
+        color: #E9791C;
       }
       .hero button:hover{
-        background-color: darkslategray;
+        color: #17466C;
+        background-color: #E9791C;
       }
       @media only screen and (max-width:620px) {
         header, #logo, #menus, #menu {
@@ -112,7 +119,10 @@
         </nav>
     </header>
     <div class="hero">
-      <p>You can erase someone from your mind.<br>
+      <!--<p class="bold">ETERNAL SUNSHINE
+        OF THE SPOTLESS MIND
+      </p>-->
+      <p class="p">You can erase someone from your mind.<br>
         Getting them out of your heart is another story.</p>
       <button onclick="location.href='watch.html'">WATCH VIDEO
       </button>
